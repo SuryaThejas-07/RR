@@ -1,0 +1,401 @@
+{
+  "edition": "public review",
+  "repository": "https://github.com/SuryaThejas-07/RR",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 124,
+      "sha256": "b19e2050f8a036c23132c5d3538586cd6edd6a16757b0b9d2297a5ffbd345c36"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 145,
+      "sha256": "3b7e355b6936a222df8059acba381fe834542fc5c9d6b3de9cc9f6c2cdf44c11"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9430,
+      "sha256": "ee210b6e9b56ae4e91cd09930af487d119d30f678c39e36f59cea97e0cccd88c"
+    },
+    {
+      "path": "assets/logos/RR.png",
+      "bytes": 41942,
+      "sha256": "275a109875966cd886ab59e39e971313f5e56752fa2ef3874586622b7dca5eb6"
+    },
+    {
+      "path": "config.yaml",
+      "bytes": 5337,
+      "sha256": "6406d450f194f2ce8b1c8b6c816483b6c0386c21625286dc9f153a254f8294de"
+    },
+    {
+      "path": "dashboard/index.html",
+      "bytes": 481,
+      "sha256": "52866039ce99e873fb32a6255247136112387481b0c0cc99be975fa1eddf36c5"
+    },
+    {
+      "path": "dashboard/package-lock.json",
+      "bytes": 63471,
+      "sha256": "c26d9777db2702dbe9be6b283a993c082bfd8794675711486cfb2daea6e9fc39"
+    },
+    {
+      "path": "dashboard/package.json",
+      "bytes": 588,
+      "sha256": "703487d07a1cacc97c943a1f6655c6610d8805005cc53668b43942f3861bc18b"
+    },
+    {
+      "path": "dashboard/public/dashboard_data.json",
+      "bytes": 982759,
+      "sha256": "c64387d6c958f1a6e25f99f32d16d9b1468c73c71879cac732d3a0af36d5db81"
+    },
+    {
+      "path": "dashboard/public/fonts/inter-400.woff2",
+      "bytes": 32364,
+      "sha256": "bf02fb2f30730ca1adcfa95960ddeb97efaac255e44825b01406669afff002fa"
+    },
+    {
+      "path": "dashboard/public/fonts/inter-500.woff2",
+      "bytes": 33272,
+      "sha256": "8e08295e83829d80e1a838ad784b9bdea99be92e081c05bbf9e268ed7916603c"
+    },
+    {
+      "path": "dashboard/public/fonts/inter-600.woff2",
+      "bytes": 33508,
+      "sha256": "c3f0c709b37a53762876b44521be8e90b3ccf24236c032ac25b410103d00bbb5"
+    },
+    {
+      "path": "dashboard/public/fonts/inter-700.woff2",
+      "bytes": 33416,
+      "sha256": "1ebfa4581807d3bc4a9ec5326ff4c19c4eb73ba1ae160b2606b4fe81ea17b2b2"
+    },
+    {
+      "path": "dashboard/public/fonts/montserrat-600.woff2",
+      "bytes": 27000,
+      "sha256": "f1416bfe253433db02743f2487d9b74000e51d83e54c76f8ebaa129d3be43deb"
+    },
+    {
+      "path": "dashboard/public/fonts/montserrat-700.woff2",
+      "bytes": 27384,
+      "sha256": "170f0e198220d96748a21cbfc3eadd88b2d5bb8b02cbd2be66dd55ffb6a25fe5"
+    },
+    {
+      "path": "dashboard/public/fonts/montserrat-800.woff2",
+      "bytes": 27532,
+      "sha256": "75eecb4be18c491db1dbf42c1016c86faa5d6d3b92c568c9b7196fb16ed7f88d"
+    },
+    {
+      "path": "dashboard/public/fonts/sources.json",
+      "bytes": 1984,
+      "sha256": "c6edc1d1c63241d649a31caa284a3886dc3bec71d66f0767aa2f300a68ddbf2f"
+    },
+    {
+      "path": "dashboard/public/logos/RR.png",
+      "bytes": 41942,
+      "sha256": "275a109875966cd886ab59e39e971313f5e56752fa2ef3874586622b7dca5eb6"
+    },
+    {
+      "path": "dashboard/public/report/RR_Pressure_Reliability_Methodology.pdf",
+      "bytes": 267500,
+      "sha256": "4eb298fd6e19ef1ce4634e43c387e00f1dfc3f39f10b084a79bb5d74d4e576f8"
+    },
+    {
+      "path": "dashboard/public/report/RR_Pressure_Reliability_Presentation.pptx",
+      "bytes": 978114,
+      "sha256": "1bfe828499e0d1a97a69cce228664a4ad9b0f6243131cb419077230dcba5b787"
+    },
+    {
+      "path": "dashboard/public/report/RR_Pressure_Reliability_Technical_Notes.pdf",
+      "bytes": 581306,
+      "sha256": "ca907671dfc38f51169fa682ac297565f33e9db9f091482510475b04bc2f360c"
+    },
+    {
+      "path": "dashboard/src/App.tsx",
+      "bytes": 22713,
+      "sha256": "cc933937af97533400d123d7e5061218afea82e3a02aa65131459e37e8af7c4f"
+    },
+    {
+      "path": "dashboard/src/index.css",
+      "bytes": 20342,
+      "sha256": "ab023055f6888a4443812690833933733bccc60a09b1bf4755fc1473a00b6252"
+    },
+    {
+      "path": "dashboard/src/main.tsx",
+      "bytes": 278,
+      "sha256": "9569f6742b2ec3a395fcaf094b367835d1e468a936872011ba574b580abab990"
+    },
+    {
+      "path": "dashboard/src/performance.css",
+      "bytes": 13420,
+      "sha256": "2be7c509b9ce8cc7cfddb7c953985f14843d3acdc0cd9086c556afd4f457ea3f"
+    },
+    {
+      "path": "dashboard/src/premium.css",
+      "bytes": 10806,
+      "sha256": "52babbb8de7b7ab9656b8b7213533bb7dc25f879ca5f7db380ff3403d7496883"
+    },
+    {
+      "path": "dashboard/tsconfig.json",
+      "bytes": 292,
+      "sha256": "4ff6009b1b041212a7eedf037898b50a74308743bf511480134ce1ebf087988a"
+    },
+    {
+      "path": "dashboard/vite.config.ts",
+      "bytes": 216,
+      "sha256": "6173ec73c7c701853da04c27c20ac3df947079c93472f716334e99315afa182c"
+    },
+    {
+      "path": "docs/CODE_GUIDE.md",
+      "bytes": 1905,
+      "sha256": "1b68af7c80a2199627c697500a78c50f35d3c18282f9859a723d0180f1f6e622"
+    },
+    {
+      "path": "docs/DATA_GUIDE.md",
+      "bytes": 2641,
+      "sha256": "813592c4f2e3097acee6bda198aa57e4787e3139a120dbe9dcdac8b2b2c3f6a5"
+    },
+    {
+      "path": "docs/EVIDENCE_GUIDE.md",
+      "bytes": 2888,
+      "sha256": "6fe4b85289ea6d5048bb5b3eca2b17b705b91dc1004a98af3d86e8a3297e22fb"
+    },
+    {
+      "path": "docs/METHOD.md",
+      "bytes": 3013,
+      "sha256": "01f239f4521ac9a824dd08a6a201254557d66bb73e802ec0571217fb0f20e86c"
+    },
+    {
+      "path": "docs/PROJECT_JOURNEY.md",
+      "bytes": 2826,
+      "sha256": "e245d698efb4eff77653ff169af9d145b3eaee473c396b3ad1cd15cd789e26cc"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 2227,
+      "sha256": "099349d0e5f1497b3e0b44646c5b6ea11a8218520d3182bc7d8254d23e8aa738"
+    },
+    {
+      "path": "docs/RIGHTS_AND_DATA.md",
+      "bytes": 748,
+      "sha256": "dc7dfb88d73af51e06ab4eafc70feabbc8cb64b02993d478045bf332adcffcff"
+    },
+    {
+      "path": "docs/VALIDATION_SUMMARY.json",
+      "bytes": 292,
+      "sha256": "3b64756a05a123e15505b92268ced1108428a5fa1205e620414dae811a8b2200"
+    },
+    {
+      "path": "docs/images/dashboard-overview.png",
+      "bytes": 111287,
+      "sha256": "9e48b7ef698e0a2145e8dbf97a0c68114372b82380c1315e1d27e7e6d9a64613"
+    },
+    {
+      "path": "outputs/match_reconciliation_mismatches.csv",
+      "bytes": 593,
+      "sha256": "19db58e57612699050c50795a3ebba5aa0bb75dc8bd31ae99728b4e3b6d5586e"
+    },
+    {
+      "path": "outputs/placebo_results.csv",
+      "bytes": 14152,
+      "sha256": "e5da5c2aa6f8bc9b6a55c59a81e3a77bbf1f01b7f5cccb8861261f48c4a8a438"
+    },
+    {
+      "path": "outputs/pressure_separation.csv",
+      "bytes": 991,
+      "sha256": "dd505ef049b4c5408b93f05121885837122982c84add5bb5085d18caff4ff7b8"
+    },
+    {
+      "path": "outputs/quarantine_by_class.csv",
+      "bytes": 431,
+      "sha256": "395ac882a09f74c039a49f1739b0bbbfc53250b6c247d80a49884694ae29f120"
+    },
+    {
+      "path": "outputs/quarantine_by_reason.csv",
+      "bytes": 914,
+      "sha256": "f11add259a13b4ff7ef55663325bdfd260952f50f80ea3bb65587810c7e7423b"
+    },
+    {
+      "path": "outputs/quarantine_by_season.csv",
+      "bytes": 766,
+      "sha256": "f1fdfb908f94db5e2733448dd03e15ccbe142f04b119d71fffe90f8403050fd8"
+    },
+    {
+      "path": "outputs/quarantine_exclusive_reason.csv",
+      "bytes": 302,
+      "sha256": "831208b4b52ce486af33bb6522dc7e8b307066ebc6d38a6a1b64e5fea9c11031"
+    },
+    {
+      "path": "outputs/ranked_candidate_pool.csv",
+      "bytes": 78980,
+      "sha256": "5f16026a33fc556d4988fe371fb92699c73560ff129331ef27ef130b867f999b"
+    },
+    {
+      "path": "outputs/rankings_final.csv",
+      "bytes": 11656,
+      "sha256": "4ed72a8ed8e613023892f22503b514c04775e5a246f6a688aa7660cbbd1c7cc5"
+    },
+    {
+      "path": "outputs/reliability_summary.csv",
+      "bytes": 1942,
+      "sha256": "253dacfdcbde3f06ce232f815efcf9cc384f0c28fb216f0755e25290b051d7bb"
+    },
+    {
+      "path": "outputs/secondary_separation_by_stratum.csv",
+      "bytes": 8136,
+      "sha256": "ccb43f8716732a87039fab119c352e4468069aa88318b458215338b4c3d2c985"
+    },
+    {
+      "path": "outputs/secondary_separation_standardized.csv",
+      "bytes": 919,
+      "sha256": "91b6c3657cd81d1308c933c1adfef13d8db5df2652ea0b1a32c3740824dfe2ee"
+    },
+    {
+      "path": "outputs/sensitivity_summary.csv",
+      "bytes": 1569,
+      "sha256": "505841f1c775b69444f875340d99e51238cc913cbe7ec9583446bfe3b1ffd1d6"
+    },
+    {
+      "path": "outputs/tier2_reference.csv",
+      "bytes": 37052,
+      "sha256": "ce6ffa1924d354b8d896f12be3d6225cd05508537981e19020d581f75cf8ee93"
+    },
+    {
+      "path": "presentations/RR_Pressure_Reliability_Presentation.pptx",
+      "bytes": 978114,
+      "sha256": "1bfe828499e0d1a97a69cce228664a4ad9b0f6243131cb419077230dcba5b787"
+    },
+    {
+      "path": "report/RR_Pressure_Reliability_Methodology.pdf",
+      "bytes": 267500,
+      "sha256": "4eb298fd6e19ef1ce4634e43c387e00f1dfc3f39f10b084a79bb5d74d4e576f8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 181,
+      "sha256": "717b064413e19e165dd50bd9b9732f4356c573f6116d2f8c9b82e7e521cf99e9"
+    },
+    {
+      "path": "review.py",
+      "bytes": 3462,
+      "sha256": "880cbd0497dd5d3cdd62c529bd47db24af1c3432dd71fda1d0f7074c30eb2515"
+    },
+    {
+      "path": "scripts/model_common.py",
+      "bytes": 916,
+      "sha256": "4a3d4b1f9a15879f538162107463e7d2f008286f03e06b6a2791f6f023f264ed"
+    },
+    {
+      "path": "scripts/phase1.py",
+      "bytes": 33425,
+      "sha256": "d67d3a6aa8e4a6d68adaae8053d60cbf520941c53680b2dd252fc2fc93c5a8fa"
+    },
+    {
+      "path": "scripts/phase2.py",
+      "bytes": 7432,
+      "sha256": "d6029bec53a566c8e9886a7ce6129549f952c41bccafdaef31b8e7b2a64d89e6"
+    },
+    {
+      "path": "scripts/phase3.py",
+      "bytes": 9147,
+      "sha256": "2ed30b15e71943bda78540ae369c9115820de1e44d5284017fc408bf5eeda062"
+    },
+    {
+      "path": "scripts/phase4.py",
+      "bytes": 9440,
+      "sha256": "59041a6edec2e9b8cea023789ffe1e9c9da02107df2ae9dec8123596b298db21"
+    },
+    {
+      "path": "scripts/phase5.py",
+      "bytes": 27057,
+      "sha256": "843e1624dfbb5425763d12c4c97678f69a74bf4c544821acedb31b3670e4f508"
+    },
+    {
+      "path": "scripts/rating_engine.py",
+      "bytes": 14165,
+      "sha256": "e84e77cb6b197366030be5c7dbf3242be0f4798d7fba667ab9787a6e9437f8f1"
+    },
+    {
+      "path": "scripts/secondary_separation.py",
+      "bytes": 6947,
+      "sha256": "db51b8b936c16ea89f018a590e4355c477c200a533223651c379a7b85a2b1114"
+    },
+    {
+      "path": "site/assets/index-Ct3O-Sdd.css",
+      "bytes": 23489,
+      "sha256": "61ee6d2dfa74c251990b28456b2fe6aff94c3c366c3d995e423430c27ddbdd06"
+    },
+    {
+      "path": "site/assets/index-vuylmskg.js",
+      "bytes": 246461,
+      "sha256": "93a144658d04bc4ee741b874fc30478fad6676e2ecc248fd0c5940819c0a12db"
+    },
+    {
+      "path": "site/dashboard_data.json",
+      "bytes": 982759,
+      "sha256": "c64387d6c958f1a6e25f99f32d16d9b1468c73c71879cac732d3a0af36d5db81"
+    },
+    {
+      "path": "site/fonts/inter-400.woff2",
+      "bytes": 32364,
+      "sha256": "bf02fb2f30730ca1adcfa95960ddeb97efaac255e44825b01406669afff002fa"
+    },
+    {
+      "path": "site/fonts/inter-500.woff2",
+      "bytes": 33272,
+      "sha256": "8e08295e83829d80e1a838ad784b9bdea99be92e081c05bbf9e268ed7916603c"
+    },
+    {
+      "path": "site/fonts/inter-600.woff2",
+      "bytes": 33508,
+      "sha256": "c3f0c709b37a53762876b44521be8e90b3ccf24236c032ac25b410103d00bbb5"
+    },
+    {
+      "path": "site/fonts/inter-700.woff2",
+      "bytes": 33416,
+      "sha256": "1ebfa4581807d3bc4a9ec5326ff4c19c4eb73ba1ae160b2606b4fe81ea17b2b2"
+    },
+    {
+      "path": "site/fonts/montserrat-600.woff2",
+      "bytes": 27000,
+      "sha256": "f1416bfe253433db02743f2487d9b74000e51d83e54c76f8ebaa129d3be43deb"
+    },
+    {
+      "path": "site/fonts/montserrat-700.woff2",
+      "bytes": 27384,
+      "sha256": "170f0e198220d96748a21cbfc3eadd88b2d5bb8b02cbd2be66dd55ffb6a25fe5"
+    },
+    {
+      "path": "site/fonts/montserrat-800.woff2",
+      "bytes": 27532,
+      "sha256": "75eecb4be18c491db1dbf42c1016c86faa5d6d3b92c568c9b7196fb16ed7f88d"
+    },
+    {
+      "path": "site/fonts/sources.json",
+      "bytes": 1984,
+      "sha256": "c6edc1d1c63241d649a31caa284a3886dc3bec71d66f0767aa2f300a68ddbf2f"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 582,
+      "sha256": "be7033199debab05bf57d64ddbf3fb1b6ae2c71e7e0eddcea058621a492f2bda"
+    },
+    {
+      "path": "site/logos/RR.png",
+      "bytes": 41942,
+      "sha256": "275a109875966cd886ab59e39e971313f5e56752fa2ef3874586622b7dca5eb6"
+    },
+    {
+      "path": "site/report/RR_Pressure_Reliability_Methodology.pdf",
+      "bytes": 267500,
+      "sha256": "4eb298fd6e19ef1ce4634e43c387e00f1dfc3f39f10b084a79bb5d74d4e576f8"
+    },
+    {
+      "path": "site/report/RR_Pressure_Reliability_Presentation.pptx",
+      "bytes": 978114,
+      "sha256": "1bfe828499e0d1a97a69cce228664a4ad9b0f6243131cb419077230dcba5b787"
+    },
+    {
+      "path": "site/report/RR_Pressure_Reliability_Technical_Notes.pdf",
+      "bytes": 581306,
+      "sha256": "ca907671dfc38f51169fa682ac297565f33e9db9f091482510475b04bc2f360c"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+reason,matches,deliveries,explanation
+has_revised_fields,34,4433,"Conservative exclusion of revised length/target, including shortened non-DLS matches."
+dls_or_adjusted_target,20,3608,DLS text or adjusted target; target/par model will not reconstruct interruptions.
+super_over_match,9,2308,Super-over context and incomplete extra-innings coverage.
+no_result_or_abandoned,40,1753,Unfinished/no-result match context.
+reconciliation_mismatch,3,653,Two ordinary margin discrepancies and one unequal-totals tied result.
+legal_over_anomaly,3,701,Completed overs contain five or seven derived legal deliveries; raw records not repaired.
+ambiguous_extras_match,3,730,Unlabelled extras or batter runs on leg-byes label; attribution uncertain.
+participation_inconsistency,3,639,Actual actor ID absent in team XI; same-name IDs not silently merged.
+missing_deliveries,16,0,No delivery records supplied for a scheduled match.

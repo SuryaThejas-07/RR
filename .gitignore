@@ -1,0 +1,14 @@
+data/
+.runtime/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dashboard/dist/
+.env*
+*.log
+~$*
+_archive_old/
+IMPLEMENTATION_PLAN.md
+AGENTS.md
+CLAUDE.md

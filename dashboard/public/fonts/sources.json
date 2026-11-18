@@ -1,0 +1,58 @@
+[
+  {
+    "family": "Inter",
+    "weight": 400,
+    "file": "inter-400.woff2",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+    "bytes": 30480,
+    "format": "woff2, Latin subset, static declared weight"
+  },
+  {
+    "family": "Inter",
+    "weight": 500,
+    "file": "inter-500.woff2",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+    "bytes": 31252,
+    "format": "woff2, Latin subset, static declared weight"
+  },
+  {
+    "family": "Inter",
+    "weight": 600,
+    "file": "inter-600.woff2",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+    "bytes": 31552,
+    "format": "woff2, Latin subset, static declared weight"
+  },
+  {
+    "family": "Inter",
+    "weight": 700,
+    "file": "inter-700.woff2",
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+    "bytes": 31460,
+    "format": "woff2, Latin subset, static declared weight"
+  },
+  {
+    "family": "Montserrat",
+    "weight": 600,
+    "file": "montserrat-600.woff2",
+    "source": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf",
+    "bytes": 25072,
+    "format": "woff2, Latin subset, static declared weight"
+  },
+  {
+    "family": "Montserrat",
+    "weight": 700,
+    "file": "montserrat-700.woff2",
+    "source": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf",
+    "bytes": 25440,
+    "format": "woff2, Latin subset, static declared weight"
+  },
+  {
+    "family": "Montserrat",
+    "weight": 800,
+    "file": "montserrat-800.woff2",
+    "source": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf",
+    "bytes": 25524,
+    "format": "woff2, Latin subset, static declared weight"
+  }
+]

@@ -1,0 +1,4 @@
+competition_class,matches,excluded_matches,match_share_removed,deliveries,excluded_deliveries,delivery_share_removed,matches_with_deliveries,observed_match_share_removed,flag_over_15_percent
+IPL,371,20,0.0539083557951482,87687,2894,0.0330037519814795,367,0.0435967302452316,False
+OTHER_T20,30,6,0.2,6985,1392,0.1992841803865425,30,0.2,True
+T20I,482,62,0.1286307053941908,106327,6973,0.0655807085688489,470,0.1063829787234042,False

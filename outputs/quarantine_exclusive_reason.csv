@@ -1,0 +1,10 @@
+primary_reason,matches,deliveries
+ambiguous_extras_match,3,730
+dls_or_adjusted_target,4,821
+has_revised_fields,34,4433
+legal_over_anomaly,2,450
+no_result_or_abandoned,30,1225
+participation_inconsistency,3,639
+reconciliation_mismatch,3,653
+included_after_quality_mask,795,189740
+super_over_match,9,2308

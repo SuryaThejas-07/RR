@@ -1,0 +1,4 @@
+match_id,result,recorded_win_team_id,explicit_dls,target_adjusted,is_super_over,first_runs,second_runs,second_wickets_lost,implied_win_team_id,winner_match,margin_match,tie_score_match,reported_margin,implied_margin,assessment,regulation_tie
+14130,Lucknow Super Giants Won 36  Runs,3509.0,False,False,False,167.0,130.0,8.0,3509.0,True,False,,36.0,37.0,ordinary_assessable,
+18532,Match Tied,,False,False,False,160.0,75.0,4.0,,,,False,,,tie_totals_inconsistent,
+20190,Lucknow Super Giants Won by 6 wickets,3509.0,False,False,False,121.0,127.0,5.0,3509.0,True,False,,6.0,5.0,ordinary_assessable,

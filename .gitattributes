@@ -1,0 +1,6 @@
+# Preserve release-manifest bytes on every operating system.
+* -text
+*.pdf binary
+*.pptx binary
+*.png binary
+*.woff2 binary

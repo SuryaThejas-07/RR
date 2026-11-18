@@ -1,0 +1,202 @@
+{
+  "seed": 20261115,
+  "paths": {
+    "raw": "data/raw/data_pack",
+    "processed": "data/processed",
+    "availability": "data/availability",
+    "audit": "data/internal_model/frozen_phase5/audit",
+    "model_outputs": "data/internal_model/frozen_phase5"
+  },
+  "data": {
+    "balls_per_over": 6,
+    "normal_innings_balls": 120,
+    "wickets_per_innings": 10,
+    "regular_innings": [
+      1,
+      2
+    ],
+    "illegal_extras": [
+      "wide",
+      "Overstep",
+      "other"
+    ],
+    "no_ball_extras": [
+      "Overstep",
+      "other"
+    ],
+    "bye_extras": [
+      "byes",
+      "legbyes"
+    ],
+    "bowler_wicket_types": [
+      "Bowled",
+      "Caught",
+      "Hit Wicket",
+      "LBW",
+      "Stump"
+    ],
+    "ipl_name_pattern": "^IPL 20[0-9]{2}$",
+    "primary_competition_classes": [
+      "IPL",
+      "T20I",
+      "OTHER_T20"
+    ],
+    "exclude_revised_matches": true,
+    "exclude_unfinished_matches": true,
+    "quarantine_participation_inconsistencies": true,
+    "exclude_super_over_matches": true,
+    "quarantine_reconciliation_mismatches": true,
+    "quarantine_legal_over_anomalies": true,
+    "quarantine_ambiguous_extras": true,
+    "nationality_team_names": {
+      "Pakistan": "Pakistan",
+      "Bangladesh": "Bangladesh"
+    },
+    "scope_confirmation": "user confirmed all three classes on 2026-11-15"
+  },
+  "features": {
+    "powerplay_end": 36,
+    "middle_end": 90,
+    "historical_par_prior_matches": 12,
+    "cold_start_min_prior_matches": 5,
+    "projection_prior_balls": 24
+  },
+  "pressure": {
+    "weights": {
+      "urgency": 0.35,
+      "wicket_scarcity": 0.25,
+      "scoring_demand": 0.3,
+      "knockout": 0.1
+    },
+    "urgency_power": 2,
+    "wicket_scarcity_power": 1.5,
+    "demand_gap_scale": 6.0,
+    "closeness_scale": 5.0,
+    "high_quantile": 0.75,
+    "normalization": "fixed bounded components; innings-specific training-free quantiles",
+    "cluster_bootstrap_draws": 1000,
+    "alpha": 0.05,
+    "minimum_high_share": 0.15,
+    "maximum_high_share": 0.4,
+    "weak_effect_minimum_cohen_h": 0.1,
+    "weak_effect_minimum_metrics": 2
+  },
+  "phase3_deviation": {
+    "authorized_by": "user",
+    "date": "2026-11-15",
+    "original_criterion_met": false,
+    "reason": "Only dismissal met original two-metric effect-size gate; retain as limitation."
+  },
+  "secondary_separation": {
+    "bootstrap_draws": 1000,
+    "alpha": 0.05,
+    "strata": [
+      "phase",
+      "innings"
+    ],
+    "analysis_status": "declared before running; descriptive; no additional acceptance threshold"
+  },
+  "ratings": {
+    "min_pressure_balls": 200,
+    "min_baseline_balls": 400,
+    "min_pressure_matches": 10,
+    "min_baseline_matches": 10,
+    "planning_dismissal_probability": 0.08,
+    "planning_dismissal_halfwidth": 0.04,
+    "planning_run_sd_per_ball": 2.0,
+    "planning_economy_halfwidth": 2.0,
+    "planning_z": 1.96,
+    "folds": 5,
+    "context_prior_events": 200,
+    "venue_prior_events": 600,
+    "opposition_prior_events": 600,
+    "component_weights": {
+      "runs": 0.45,
+      "wicket": 0.25,
+      "dot": 0.15,
+      "boundary": 0.15
+    },
+    "delta_weight": 0.7,
+    "absolute_pressure_weight": 0.2,
+    "consistency_weight": 0.1,
+    "consistency_prior_matches": 10,
+    "rating_center": 50.0,
+    "rating_scale": 10.0,
+    "bootstrap_draws": 500,
+    "alpha": 0.05,
+    "minimum_eb_players": 10,
+    "epsilon": 1e-09,
+    "scopes": [
+      "Combined",
+      "IPL",
+      "T20I",
+      "OTHER_T20"
+    ],
+    "interval_method": "match bootstrap; expectation and EB parameters held fixed"
+  },
+  "validation": {
+    "technical_min_balls_per_state": 20,
+    "weight_perturbation": 0.2,
+    "sensitivity_quantiles": [
+      0.7,
+      0.8
+    ],
+    "sensitivity_eligibility": [
+      {
+        "pressure": 150,
+        "baseline": 300,
+        "matches": 8
+      },
+      {
+        "pressure": 250,
+        "baseline": 500,
+        "matches": 12
+      }
+    ],
+    "placebo_repetitions": 100,
+    "fragile_rank_width": 10,
+    "fragile_top10_probability": 0.5
+  },
+  "phase4_capacity_deviation": {
+    "authorized_by": "user",
+    "scope": "T20I",
+    "discipline": "batter",
+    "qualified_count": 4,
+    "thresholds_unchanged": true,
+    "reason": "Show four qualified players without padding; continue Phase 5."
+  },
+  "availability": {
+    "tier1": {
+      "pressure": 200,
+      "baseline": 400,
+      "matches": 10
+    },
+    "tier2": {
+      "pressure": 150,
+      "baseline": 300,
+      "matches": 8
+    },
+    "selection": "Tier 1 first; Tier 2 fills shortages only",
+    "nationality_display_rule_date": "2026-11-15",
+    "recent_window_days": 365,
+    "inactivity_flag_days": 730,
+    "fuzzy_cutoff": 0.75,
+    "require_retirement_review_for_final": true,
+    "required_franchises": [
+      "Rajasthan Royals",
+      "Chennai Super Kings",
+      "Mumbai Indians",
+      "Kolkata Knight Riders",
+      "Royal Challengers Bengaluru",
+      "Delhi Capitals",
+      "Punjab Kings",
+      "Sunrisers Hyderabad",
+      "Gujarat Titans",
+      "Lucknow Super Giants"
+    ],
+    "enabled": false
+  },
+  "nationality_exclusion": {
+    "enabled": true
+  }
+}
